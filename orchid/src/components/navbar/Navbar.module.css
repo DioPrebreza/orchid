@@ -1,3 +1,28 @@
-.navbar__links a {
+.navbar__container {
+  background: rgb(171, 0, 255);
+  background: linear-gradient(
+    174deg,
+    rgba(171, 0, 255, 1) 36%,
+    rgba(0, 18, 255, 1) 100%
+  );
+
+  height: 4em;
+}
+
+.navbar__links ul {
+  margin-top: -0.1em;
+  margin-right: auto;
+  margin-left: 25%;
+}
+
+.navbar__links ul li {
+  list-style: none;
+  display: inline;
+}
+
+.navbar__links ul li a {
   text-decoration: none;
+  color: white;
+
+  padding: 3em;
 }
