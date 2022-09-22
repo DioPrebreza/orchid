@@ -1,3 +1,10 @@
+.container {
+  position: fixed;
+  width: 80%;
+  top: 10px;
+  left: 10%;
+}
+
 .mainmenu {
   display: flex;
   list-style: none;

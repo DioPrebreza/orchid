@@ -11,31 +11,29 @@ const Navbar = (props) => {
   return (
     <div>
       {/* <!-- Start Mainmenu Area  --> */}
-      <div id="axil-sticky-placeholder"></div>
-      <div class="axil-mainmenu">
-        <Container class="container">
-          <div class={classes.header_navbar}>
-            <div class="header-main-nav">
-              {/* <!-- Start Mainmanu Nav --> */}
-              <Row>
-                <Container class="mainmenu-nav">
-                  <Row>
-                    <Col md={3} class="mobile-nav-brand">
-                      <a href="index.html" class="logo">
-                        <img
-                          src={require("../../images/logo-placeholder.png")}
-                          alt="Site Logo"
-                          width={"200px"}
-                        />
-                      </a>
-                    </Col>
-                    <Col md={9}>
-                      <ul class={classes.mainmenu}>
-                        <li class="menu-item-has-children">
-                          <a className={classes.link_underline} href="#">
-                            Home
-                          </a>
-                          {/* <ul class="axil-submenu">
+      <div class={classes.container}>
+        <div class={classes.header_navbar}>
+          <div class="header-main-nav">
+            {/* <!-- Start Mainmanu Nav --> */}
+            <Row>
+              <Container class="mainmenu-nav">
+                <Row>
+                  <Col md={3} class="mobile-nav-brand">
+                    <a href="index.html" class="logo">
+                      <img
+                        src={require("../../images/logo-placeholder.png")}
+                        alt="Site Logo"
+                        width={"200px"}
+                      />
+                    </a>
+                  </Col>
+                  <Col md={9}>
+                    <ul class={classes.mainmenu}>
+                      <li class="menu-item-has-children">
+                        <a className={classes.link_underline} href="#">
+                          Home
+                        </a>
+                        {/* <ul class="axil-submenu">
                       <li>
                         <a href="index-1.html">Home - Electronics</a>
                       </li>
@@ -55,12 +53,12 @@ const Navbar = (props) => {
                         <a href="index-6.html">Home - Multipurpose</a>
                       </li>
                     </ul> */}
-                        </li>
-                        <li class="menu-item-has-children">
-                          <a className={classes.link_underline} href="#">
-                            Shop
-                          </a>
-                          {/* <ul class="axil-submenu">
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a className={classes.link_underline} href="#">
+                          Shop
+                        </a>
+                        {/* <ul class="axil-submenu">
                       <li>
                         <a href="shop-sidebar.html">Shop With Sidebar</a>
                       </li>
@@ -89,12 +87,12 @@ const Navbar = (props) => {
                         <a href="single-product-7.html">Product Variation 7</a>
                       </li>
                     </ul> */}
-                        </li>
-                        <li class="menu-item-has-children">
-                          <a className={classes.link_underline} href="#">
-                            Pages
-                          </a>
-                          {/* <ul class="axil-submenu">
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a className={classes.link_underline} href="#">
+                          Pages
+                        </a>
+                        {/* <ul class="axil-submenu">
                       <li>
                         <a href="wishlist.html">Wishlist</a>
                       </li>
@@ -132,20 +130,20 @@ const Navbar = (props) => {
                         <a href="typography.html">Typography</a>
                       </li>
                     </ul> */}
-                        </li>
-                        <li>
-                          <a
-                            className={classes.link_underline}
-                            href="about-us.html"
-                          >
-                            About
-                          </a>
-                        </li>
-                        <li class="menu-item-has-children">
-                          <a className={classes.link_underline} href="#">
-                            Blog
-                          </a>
-                          {/* <ul class="axil-submenu">
+                      </li>
+                      <li>
+                        <a
+                          className={classes.link_underline}
+                          href="about-us.html"
+                        >
+                          About
+                        </a>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a className={classes.link_underline} href="#">
+                          Blog
+                        </a>
+                        {/* <ul class="axil-submenu">
                       <li>
                         <a href="blog.html">Blog List</a>
                       </li>
@@ -168,23 +166,23 @@ const Navbar = (props) => {
                         <a href="blog-quote.html">Quote Post</a>
                       </li>
                     </ul> */}
-                        </li>
-                        <li>
-                          <a
-                            className={classes.link_underline}
-                            href="contact.html"
-                          >
-                            Contact
-                          </a>
-                        </li>
-                      </ul>
-                    </Col>
-                  </Row>
-                </Container>
-              </Row>
-              {/* <!-- End Mainmanu Nav --> */}
-            </div>
-            {/* <div class="header-action">
+                      </li>
+                      <li>
+                        <a
+                          className={classes.link_underline}
+                          href="contact.html"
+                        >
+                          Contact
+                        </a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </Container>
+            </Row>
+            {/* <!-- End Mainmanu Nav --> */}
+          </div>
+          {/* <div class="header-action">
               <ul class="action-list">
                 <li class="axil-search">
                   <a
@@ -246,8 +244,7 @@ const Navbar = (props) => {
                 </li>
               </ul>
             </div> */}
-          </div>
-        </Container>
+        </div>
       </div>
     </div>
   );
